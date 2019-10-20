@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "333428065777",
+    "firebase_url": "https://build-a-bit.firebaseio.com",
+    "project_id": "build-a-bit",
+    "storage_bucket": "build-a-bit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333428065777:android:1229a8f8e210209a61b050",
+        "android_client_info": {
+          "package_name": "com.sherlocked.buildabit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333428065777-lst3mtfshgts4913o1do3347eolkg3f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQEjD_Xtzf7Q_oKQOoKmaclunf1ffWNLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333428065777-lst3mtfshgts4913o1do3347eolkg3f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

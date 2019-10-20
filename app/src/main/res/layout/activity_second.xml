@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:onClick="nextActivity"
+        android:text="Save and Continue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bodyTextView2" />
+
+    <EditText
+        android:id="@+id/workEditText"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:hint="Occupation"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:text="Male"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workEditText" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="47dp"
+        android:text="The more we know about you will help us serve more approprite match to your dressing style."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerTextView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:text="Female"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/workEditText" />
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="340dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:text="Tell us more about you"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bodyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Body Type"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageEditText" />
+
+    <TextView
+        android:id="@+id/bodyTextView1"
+        android:layout_width="91dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="91dp"
+        android:onClick="endo"
+        android:text="Endomorph"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageEditText" />
+
+    <TextView
+        android:id="@+id/bodyTextView2"
+        android:layout_width="91dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="92dp"
+        android:onClick="ecto"
+        android:text="Ectomorph"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageEditText" />
+
+    <TextView
+        android:id="@+id/bodyTextView3"
+        android:layout_width="91dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="92dp"
+        android:onClick="meso"
+        android:text="Mesomorph"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

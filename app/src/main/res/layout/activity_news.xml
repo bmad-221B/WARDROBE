@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsActivity">
+
+    <ImageView
+        android:id="@+id/vogueImageView"
+        android:layout_width="152dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:onClick="openVogue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vogue" />
+
+    <ImageView
+        android:id="@+id/elleImageView"
+        android:layout_width="158dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="openElle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elle" />
+
+    <ImageView
+        android:id="@+id/harpaarImageView"
+        android:layout_width="158dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="47dp"
+        android:onClick="openBazzar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vogueImageView"
+        app:srcCompat="@drawable/harpaar" />
+
+    <ImageView
+        android:id="@+id/cosmoImageView"
+        android:layout_width="158dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="27dp"
+        android:onClick="openCosmo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elleImageView"
+        app:srcCompat="@drawable/cosmopolitan" />
+
+    <ImageView
+        android:id="@+id/bofImageView"
+        android:layout_width="158dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="14dp"
+        android:onClick="openBOF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/harpaarImageView"
+        app:srcCompat="@drawable/bof" />
+
+    <ImageView
+        android:id="@+id/wImageView"
+        android:layout_width="158dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="27dp"
+        android:onClick="openW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cosmoImageView"
+        app:srcCompat="@drawable/w" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
